@@ -1,0 +1,431 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.first {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/the-town-bg-01.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+  height: 16vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  flex-wrap: wrap;
+}
+.nav-list {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: cursive;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 0.5em;
+  flex-wrap: wrap;
+}
+.nav-logo {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-family: cursive;
+  font-weight: 900;
+}
+.prv a {
+  color: #4169e1;
+}
+
+.first-section {
+  width: 100%;
+  height: 84%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  font-family: sans-serif;
+  padding: 0.5em 0.5em 4em 0.5em;
+}
+
+.first-section h1 {
+  font-weight: 500;
+  font-size: 3em;
+}
+.name {
+  color: #4169e1;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin: 2em 1em 2em 1em;
+  flex-basis: 100%;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-one {
+  height: 70%;
+  width: 100%;
+  flex-basis: content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-text {
+  width: 45%;
+}
+.first-img {
+  width: 45%;
+}
+
+.section-text h1 {
+  color: #4169e1;
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-bottom: 1.1em;
+  line-height: 1.2;
+  margin-top: 0.2em;
+}
+
+.section-text p {
+  width: 50%;
+  color: #777;
+  line-height: 1.8;
+  width: 75%;
+  font-family: sans-serif;
+  margin-bottom: 1em;
+}
+
+.section-text a {
+  font-weight: 700;
+  color: #4169e1;
+  text-decoration: underline;
+}
+.section-text button {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.7em 1.1em;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 0.9em;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}
+.second-section {
+  flex-basis: 100%;
+  width: 100%;
+  height: 30vh;
+  flex-direction: row;
+  text-align: center;
+  background-image: linear-gradient(180deg, #e3987f, #5c648c);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-wrap: wrap;
+}
+
+.first-work,
+.second-work,
+.third-work {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p-color {
+  color: #cdc1c1;
+  font-weight: 200;
+}
+
+.h-color {
+  color: white;
+  margin: 0 0 0.5em 0;
+}
+
+.a-color {
+  color: #0d6efd;
+  margin: 0 0 0.5em 0;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.images-section {
+  flex-basis: 100%;
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.img-text {
+  height: 20%;
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5em 4em;
+}
+
+.images-section h1 {
+  color: #4169e1;
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.images-section p {
+  width: 100%;
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.img-img {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  padding: 1em 0em;
+  margin: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.img-img img {
+  width: 170px;
+  padding: 0.2em;
+  margin: 0.2em;
+  flex-basis: auto;
+  display: flex;
+  justify-content: center;
+  align-self: normal;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background: url(../Images/the-town-bg-02.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contener {
+  color: white;
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-top {
+  width: 100%;
+  height: 30%;
+}
+.contact-top h1 {
+  color: white;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+}
+.contact-top span {
+  background-color: #fff;
+  height: 1px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.contact-top span::after {
+  background-color: #fff;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20%;
+  margin: 0.1%;
+}
+.contact-top p {
+  color: white;
+  line-height: 2.5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.999em;
+  font-weight: 600;
+}
+
+.contact-middle {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+.mail {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.location {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.mail input {
+  padding: 0.8em 1.1em;
+  border-radius: 0.3em;
+  background-color: transparent;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-color: white;
+  border-top: outset;
+  border-left: outset;
+}
+::placeholder {
+  color: white;
+}
+
+.mail button {
+  padding: 0.9em 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  color: #4169e1;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+
+.contact-bottom {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 1em;
+}
+
+.contact-bottom p {
+  color: white;
+  font-size: 1.05em;
+  text-align: center;
+}
+
+.contact-bottom span {
+  color: #4169e1;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .section-one {
+    flex-direction: column;
+    .first-img {
+      width: 100%;
+      text-align: center;
+    }
+    .section-text {
+      width: 100%;
+      text-align: center;
+    }
+    .section-text p {
+      width: 100%;
+    }
+  }
+  .second-section {
+    height: fit-content;
+    flex-direction: column;
+  }
+  footer {
+    height: fit-content;
+  }
+  .footer-contener {
+    height: fit-content;
+  }
+  .contact-middle {
+    flex-direction: column;
+  }
+  .location {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+  .mail {
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .mail input {
+    margin: 1em;
+  }
+}
